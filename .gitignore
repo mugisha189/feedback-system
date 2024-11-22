@@ -1,0 +1,94 @@
+# Python general
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+*.bak
+*.log
+*.env
+
+# Virtual environments
+venv/
+env/
+*.venv
+*.env
+
+# Django specific
+*.sqlite3
+db.sqlite3
+migrations/
+staticfiles/
+media/
+
+# FastAPI specific
+instance/
+*.db
+*.sqlite
+*.lock
+
+# Logs
+*.log
+logs/
+*.out
+
+# Tests
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+.cache/
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Docker
+*.pid
+*.seed
+.dockerignore
+docker-compose.override.yml
+
+# Environment and Config
+.env
+*.secret
+secrets/
+config/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.gz
+*.zip
+*.tar
+*.tgz
+*.bak
+
+# Node.js (if applicable)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Celery
+celerybeat-schedule
+*.pid
+
+# Specific frameworks or tools
+__pycache__/
+*.py[cod]
