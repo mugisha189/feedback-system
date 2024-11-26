@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "string",
+            "email": "user@example.com",
+            "hashed_password": "$2b$12$qZREjj39NeDoBkrDiipx2O13ORLnoAB3xCFCwigoaUL54saXsKVdG"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "New Product 2",
+            "description": "This is a new product.",
+            "owner_id": 1
+        }
+    ],
+    "feedbacks": [
+        {
+            "id": 1,
+            "customer_name": "string",
+            "email": "user@example.com",
+            "message": "string",
+            "rating": 0,
+            "product_id": 1
+        }
+    ]
+}
